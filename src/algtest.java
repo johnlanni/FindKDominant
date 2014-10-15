@@ -14,7 +14,7 @@ public class algtest {
 			int aalg[] = new int[4];
 			int choice = 1;
 			int ratio = 2;
-			if ( 3)
+			if (3)
 				dataset.setMovieWeight();
 			System.out.println(Global_Variable.wsum);
 			Global_Variable.w = 97180;
