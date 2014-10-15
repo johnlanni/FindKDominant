@@ -16,11 +16,7 @@ public class algtest {
 			int aalg[] = new int[4];
 			int choice = 1;
 			int ratio = 2;
-<<<<<<< HEAD
-			if (3)
-=======
 		        if (choice == 3)
->>>>>>> origin/master
 				dataset.setMovieWeight();
 			System.out.println(Global_Variable.wsum);
 			Global_Variable.w = 97180;
@@ -47,7 +43,7 @@ public class algtest {
 					System.out.println("w = " + Global_Variable.w);
 					System.out.println("raito = " + ratio);
 				}
-				long startTime = System.currentTimeMillis(); // 获取开始时间
+				long startTime = System.currentTimeMillis(); // 获取开始时�?
 				LinkedList<DataItem> r;
 				switch (alg) {
 				case 1:
