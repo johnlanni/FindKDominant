@@ -16,18 +16,7 @@ public class algtest {
 			int aalg[] = new int[4];
 			int choice = 1;
 			int ratio = 2;
-<<<<<<< HEAD
-<<<<<<< HEAD
 			if (choice == 3)
-=======
-			if (choice = 3)
->>>>>>> parent of 3bac04e... test
-=======
-			if ( 3)
-=======
-			if (choice == 3)
->>>>>>> parent of 2983155... test
->>>>>>> parent of e71e37b... Update algtest.java
 				dataset.setMovieWeight();
 			System.out.println(Global_Variable.wsum);
 			Global_Variable.w = 97180;
