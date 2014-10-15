@@ -17,10 +17,17 @@ public class algtest {
 			int choice = 1;
 			int ratio = 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 			if (choice == 3)
 =======
 			if (choice = 3)
 >>>>>>> parent of 3bac04e... test
+=======
+			if ( 3)
+=======
+			if (choice == 3)
+>>>>>>> parent of 2983155... test
+>>>>>>> parent of e71e37b... Update algtest.java
 				dataset.setMovieWeight();
 			System.out.println(Global_Variable.wsum);
 			Global_Variable.w = 97180;
@@ -47,7 +54,7 @@ public class algtest {
 					System.out.println("w = " + Global_Variable.w);
 					System.out.println("raito = " + ratio);
 				}
-				long startTime = System.currentTimeMillis(); // è·å–å¼€å§‹æ—¶é—´
+				long startTime = System.currentTimeMillis(); // »ñÈ¡¿ªÊ¼Ê±¼ä
 				LinkedList<DataItem> r;
 				switch (alg) {
 				case 1:
@@ -94,7 +101,7 @@ public class algtest {
 					System.out.println("oldalg:BitmapIndexBase");
 					r = dataset._BitmapIndexBasedAlg();
 				}
-				long endTime = System.currentTimeMillis(); // è·å–ç»“æŸæ—¶é—´
+				long endTime = System.currentTimeMillis(); // »ñÈ¡½áÊøÊ±¼ä
 				long totalTime = endTime - startTime;
 				System.out.println("TotalTime:" + totalTime);
 				System.out.println("comparsionNo:"
