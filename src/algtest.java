@@ -9,12 +9,18 @@ public class algtest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
+//			DataSet dataset = new DataSet(
+//					"C:\\Users\\john\\Desktop\\datasets\\movielen\\movielen");
 			DataSet dataset = new DataSet(
 			"C:\\Users\\john\\Desktop\\nba\\nba");
 			int aalg[] = new int[4];
 			int choice = 1;
 			int ratio = 2;
+<<<<<<< HEAD
 			if ( 3)
+=======
+			if (choice == 3)
+>>>>>>> parent of 2983155... test
 				dataset.setMovieWeight();
 			System.out.println(Global_Variable.wsum);
 			Global_Variable.w = 97180;
